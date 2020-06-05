@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Events</title>
+        <link rel="stylesheet" type="text/css" href="style_events.css">
+    </head>
+    <body>
+
+      <a href="index.html">
+        <img src="MZA.png" alt="Go to home page" STYLE="position:absolute;">
+      </a>
+
+            <h1 style="text-align:center;">EVENTS PAGE</h1>
+          <div class="eventsContainer">
+
+            <script type="text/javascript">
+
+        var i = 0; //Starting point of the slideshow
+        var images = []; //Variable to store images
+        var time = 3000; //Time for each image to display
+
+        //My images
+        images[0] = 'sports-day.jpg';
+        images[1] = 'Awardsday.jpg';
+        images[2] = 'Farewell.jpg';
+        images[3] = 'Enrichment.png';
+        images[4] = 'Trips.jpg';
+
+        //Function to change images
+        function changeImg(){
+          document.slide.src = images[i];
+
+          if(i < images.length - 1){
+            i++;
+          } else {
+            i = 0;
+          }
+
+          setTimeout('changeImg()', time);
+        }
+
+        window.onload = changeImg;
+      </script>
+
+      <center><img name="slide" width="50%" height="50%"></center>
+
+        </div>
+    </body>
+</html>

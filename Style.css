@@ -1,0 +1,120 @@
+.address1{
+padding: 25px 0 0px 1550px
+}
+
+.aboutUsHeading{
+  text-align:Center;
+  /* padding: 0px 800px 0 0; */
+}
+
+.heading2 h2{
+  padding: 200px 0 0 500px;
+}
+
+.heading3 h3{
+  padding: 0px 200px 50px 1450px;
+}
+
+.logo{
+  padding: 0 0 0 0;
+}
+
+.picture2 img{
+  padding: 30px 0 0 120px;
+}
+
+.paragraphOne p{
+  padding: 150px 946px 0 50px;
+}
+
+.paragraphTwo p{
+  padding: 0 0 0 1200px;
+}
+.paragraphThree p{
+  padding: 100px 946px 0 50px;
+}
+
+.paragraphFour p{
+  padding: 0px 0 0 1200px;
+}
+
+.bodyBruh{
+text-align: center;
+}
+
+.container1 {
+  display: flex;
+  width: 36em;
+  border: 3px solid black;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container2 {
+  display: flex;
+  width: 16em;
+  border: 3px solid black;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container3 {
+  display: flex;
+  width: 100em;
+  color: white;
+  border: 3px solid black;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutUs,
+.registration,
+.contactUs {
+  flex: 1;
+  background: black;
+  padding: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+}
+
+.socialLinksHeading{
+  display: flex;
+  width: 8em;
+  border: 3px solid black;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.socialLinks {
+  display: flex;
+  width: 100em;
+  border: 3px solid black;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.facebook,
+.yellowPages,
+.pathFinda {
+  flex: 1;
+  background: black;
+  padding: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+}
+
+a{
+  color: orange;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}

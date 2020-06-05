@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mzamomtsha's Registration Form</title>
+</head>
+<link href="style_registration.css" rel="stylesheet" type="text/css">
+
+  <a href="index.html">
+    <img src="MZA.png" alt="Home Page" STYLE="position:absolute;">
+  </a>
+
+<style>
+body{
+  background-image: url('https://i1.wp.com/studentportal.org.za/wp-content/uploads/2019/06/school-details.jpg?fit=1024%2C716&ssl=1');
+}
+
+</style>
+<div class="bodyBruh">
+
+  <h1 style="color:gold">Enrolment Form</h1>
+  <h2 style="color:gold">Pupil Details</h2>
+  <form action = "/action-page.php">
+    <label for ="fname"style ="color:gold">First Name:</label><br>
+    <input type="text" id="fname" name="fname" required><br><br>
+    <label for ="1name"style="color:gold">Last name:</label><br>
+    <input type="text" id="1name" name="1name"<br><br><br>
+    <label for="phone"style="color:gold">Grade:</label><br>
+    <input type="tel" id="phone" name="phone" min="0" max="9999999999"<br><br>
+    <label for="lname"style="color:gold">Date of Birth:</label><br><br>
+    <input type="date" name="DoB"><br><br>
+  <h2 style="color:gold">Gender</h2>
+    <input type="radio" id="male" name="gender" value="male">
+  <label for="male"style="color:gold">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female"style="color:gold">Female</label><br>
+  <input type="radio" id="other"style="color:gold" name="gender" value="other">
+  <label for="other"style="color:gold">Other</label><br><br>
+  <h2 style="color:gold">Parent details</h2>
+  <label for="fname"style="color:gold">First name:</label><br>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname"style="color:gold">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+     <label for="phone"style="color:gold">Phone number:</label><br><br>
+     <input type="tel" id="phone" name="phone"<br><br><br>
+     <input type="submit" value="Submit">
+    </form>
+
+</div>
+</html>

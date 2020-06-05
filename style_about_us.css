@@ -1,0 +1,55 @@
+.aboutUsHeading{
+  display: flex;
+  width: 31%;
+  color: white;
+  flex-wrap: nowrap;
+  border: 3px solid black;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.aboutUs {
+  display: flex;
+  position: absolute;
+  width: 98%;
+  height: 85%;
+}
+
+.aboutUs-Container {
+  display: flex;
+  position: absolute;
+  align-content: space-between;
+  align-self: flex-start;
+  width: 100%;
+  height: 50%;
+  color: white;
+  padding: 5px;
+}
+
+.paragraphOne,
+.paragraphTwo {
+  flex: 1;
+  font-size: 4px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.ourVisionAndOurMission-Container {
+  display: flex;
+  position: absolute;
+  align-content: space-between;
+  align-self: flex-end;
+  width: 100%;
+  height: 30%;
+  color: white;
+  padding: 5px;
+}
+
+.ourVisionHeadingAndParagraphThree,
+.paragraphFour {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3);
+}
